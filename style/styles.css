@@ -1,0 +1,236 @@
+body{
+    margin : 0px;
+    padding: 0px;
+    font-family: 'Century gothic';
+}
+
+/*Poster Styles */
+.poster{
+    background-image:url("../assets/desk.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.poster-content{
+    background-color: rgba(0,0,0,.8);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.poster-title-container{
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    padding: 20px;
+}
+h1{
+    font-size:90px;
+    font-weight: bolder;
+    margin: 0px;
+    padding: 0px;
+    color:white;
+}
+h5{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    color:white;
+}
+
+/*Navigation header Style*/
+.nav-header-container{
+    position: sticky;
+    background-color: #262b37;
+    margin: 0px;
+    display: flex;
+    top:0px;
+    justify-content: center;
+    align-items: center;
+}
+.nav-header{
+    width: 60%;
+}
+ul{
+    margin: 0px;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+li{
+    text-decoration: none;
+    padding: 28px;
+    color: white;
+    cursor: pointer;
+    transition:0.4s;
+}
+li:hover{
+    background-color: #1b1f29;
+}
+/*SECTION 03 Apropos Section*/
+.apropos{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    background-color:#ff675f;
+}
+.aporpos-container{
+    height: 100%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.apropos-title{
+    text-align: center;
+    padding: 25px;
+    color: white;
+}
+h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.apropos-content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 25px;
+}
+.apropos-info{
+    flex: 3;
+    padding: 15px;
+    color: white;
+}
+.apropos-photo{
+    flex:2;
+    display: flex;
+    justify-content: center;
+}
+h3{
+    font-weight: 400;
+    font-size: 24px;
+}
+p{
+    font-size: 18px;
+}
+.btn{
+    background-color: #262b37;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Century gothic';
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.photo{
+    width: 80%;
+    background-image: url("../assets/profile.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+/*SECTION 4 : Competence*/
+.competence{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    background-color: #eeeeee;
+}
+.comptence-container{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.competence-title{
+    text-align: center;
+    color: #ff675f;
+    padding: 25px;
+}
+.competence-info{
+    padding: 25px;
+    width: 100%;
+}
+.row{
+    display: flex;
+    padding: 30px 10px;
+}
+.col{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stats{
+    color:#ff675f;
+    font-weight: 500;
+}
+/*SECTION 5 experience*/
+.experience{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+.experience-container{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.experience-title{
+    text-align: center;
+    color: #ff675f;
+    padding: 25px;
+}
+.experience-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: column;
+    width: 100%;
+}
+.row-experience{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.col-date{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 45px;
+    color: white;
+    border-right-style: solid;
+    border-right-color: #eee;
+    border-right-width: 1px;
+}
+.col-exp-container{
+    flex:4;
+    background-color: #eee;
+    margin: 0px 20px;
+    padding: 15px;
+    border-radius: 4px;
+}
+.boule{
+    text-align: center;
+    background-color: #ff675f;
+    border-radius: 50%;
+    width: 60%;
+    padding: 20px;
+}
