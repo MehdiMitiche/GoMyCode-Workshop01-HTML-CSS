@@ -64,6 +64,7 @@ ul{
     display: flex;
     list-style: none;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 li{
     text-decoration: none;
@@ -105,6 +106,7 @@ h2{
     flex-direction: row;
     width: 100%;
     padding: 25px;
+    height: 100%;
 }
 .apropos-info{
     flex: 3;
@@ -115,7 +117,7 @@ h2{
     flex:2;
     display: flex;
     justify-content: center;
-}
+    }
 h3{
     font-weight: 400;
     font-size: 24px;
@@ -143,7 +145,8 @@ p{
 }
 /*SECTION 4 : Competence*/
 .competence{
-    height: 90vh;
+    height: fit-content;
+    min-height: 90vh;
     display: flex;
     justify-content: center;
     background-color: #f0f3f7;
@@ -224,7 +227,8 @@ p{
 
 /*SECTION 6 SERVICES*/
 .services{
-    height: 90vh;
+    height: fit-content;
+    min-height: 90vh;
     display: flex;
     justify-content: center;
     background-color: #f0f3f7;
@@ -266,7 +270,8 @@ p{
 /*    SECTION 7 : Contact*/
 .contact{
     display: flex;
-    height: 90vh;
+    min-height: 90vh;
+    height: fit-content;
     justify-content: center;
 }
 .contact-container{
@@ -318,3 +323,29 @@ footer{
     font-weight: bold;
     color: white;
 }
+
+
+@media only screen and (max-width: 1000px) {
+    .apropos-content{
+        flex-direction: column;
+    }
+    .row{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .col{
+        padding: 30px;
+    }
+    .services-info{
+        flex-direction: column;
+    }
+    .services-card{
+        margin: 20px;
+    }
+    .contact-container{
+        flex-direction: column;
+    }
+    .contact-text{
+        text-align: center;
+    }
+  }
