@@ -17,7 +17,7 @@ body{
     
 }
 .poster-content{
-    background-color: rgba(88,0,31,.6);
+    background-color: rgba(179,11,71,.2);
     height: 100%;
     width: 100%;
     display: flex;
@@ -80,7 +80,7 @@ li:hover{
     height: 90vh;
     display: flex;
     justify-content: center;
-    background-color:#F50057;
+    background-color:#FB256C;
 }
 .section-container{
     height: 100%;
@@ -146,11 +146,11 @@ p{
     height: 90vh;
     display: flex;
     justify-content: center;
-    background-color: #eeeeee;
+    background-color: #f0f3f7;
 }
 .competence-title{
     text-align: center;
-    color: #F50057;
+    color: #FB256C;
     padding: 25px;
 }
 .competence-info{
@@ -168,7 +168,7 @@ p{
     align-items: center;
 }
 .stats{
-    color:#F50057;
+    color:#FB256C;
     font-weight: 500;
 }
 /*SECTION 5 experience*/
@@ -180,7 +180,7 @@ p{
 }
 .experience-title{
     text-align: center;
-    color: #F50057;
+    color: #FB256C;
     padding: 25px;
 }
 .experience-info{
@@ -203,20 +203,20 @@ p{
     padding: 45px;
     color: white;
     border-right-style: solid;
-    border-right-color: #eee;
+    border-right-color: #f0f3f7;
     border-right-width: 1.5px;
     font-weight: 600;
 }
 .col-exp-container{
     flex:4;
-    background-color: #eee;
+    background-color: #f0f3f7;
     margin: 0px 20px;
     padding: 15px;
     border-radius: 4px;
 }
 .boule{
     text-align: center;
-    background-color: #F50057;
+    background-color: #FB256C;
     border-radius: 50%;
     width: 50%;
     padding: 25px;
@@ -227,11 +227,11 @@ p{
     height: 90vh;
     display: flex;
     justify-content: center;
-    background-color: #eeeeee;
+    background-color: #f0f3f7;
 }
 .services-title{
     text-align: center;
-    color: #F50057;
+    color: #FB256C;
     padding: 25px;
 }
 .services-info{
@@ -255,9 +255,9 @@ p{
     transition: 0.3s;
 }
 .services-card:hover{
-    background-color: #F50057;
+    background-color: #FB256C;
     color: white;
-    border-color: #F50057;
+    border-color: #FB256C;
 }
 .icon{
     padding: 30px;
