@@ -1,7 +1,7 @@
 body{
     margin : 0px;
     padding: 0px;
-    font-family: 'Century gothic';
+    font-family: 'Roboto Condensed';
 }
 
 /*Poster Styles */
@@ -17,7 +17,7 @@ body{
     
 }
 .poster-content{
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(88,0,31,.6);
     height: 100%;
     width: 100%;
     display: flex;
@@ -32,7 +32,7 @@ body{
     padding: 20px;
 }
 h1{
-    font-size:90px;
+    font-size:100px;
     font-weight: bolder;
     margin: 0px;
     padding: 0px;
@@ -80,11 +80,11 @@ li:hover{
     height: 90vh;
     display: flex;
     justify-content: center;
-    background-color:#ff675f;
+    background-color:#F50057;
 }
-.aporpos-container{
+.section-container{
     height: 100%;
-    width: 75%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -129,7 +129,7 @@ p{
     padding: 15px;
     font-size: 16px;
     font-weight: 500;
-    font-family: 'Century gothic';
+    font-family: 'Roboto Condensed';
     border-radius: 4px;
     cursor: pointer;
     transition: 0.4s;
@@ -148,16 +148,9 @@ p{
     justify-content: center;
     background-color: #eeeeee;
 }
-.comptence-container{
-    height: 100%;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 .competence-title{
     text-align: center;
-    color: #ff675f;
+    color: #F50057;
     padding: 25px;
 }
 .competence-info{
@@ -175,26 +168,19 @@ p{
     align-items: center;
 }
 .stats{
-    color:#ff675f;
+    color:#F50057;
     font-weight: 500;
 }
 /*SECTION 5 experience*/
 .experience{
-    height: 100vh;
+    height: fit-content;
     display: flex;
     justify-content: center;
     background-color: #fff;
 }
-.experience-container{
-    height: 100%;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 .experience-title{
     text-align: center;
-    color: #ff675f;
+    color: #F50057;
     padding: 25px;
 }
 .experience-info{
@@ -218,7 +204,8 @@ p{
     color: white;
     border-right-style: solid;
     border-right-color: #eee;
-    border-right-width: 1px;
+    border-right-width: 1.5px;
+    font-weight: 600;
 }
 .col-exp-container{
     flex:4;
@@ -229,8 +216,105 @@ p{
 }
 .boule{
     text-align: center;
-    background-color: #ff675f;
+    background-color: #F50057;
     border-radius: 50%;
-    width: 60%;
+    width: 50%;
+    padding: 25px;
+}
+
+/*SECTION 6 SERVICES*/
+.services{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    background-color: #eeeeee;
+}
+.services-title{
+    text-align: center;
+    color: #F50057;
+    padding: 25px;
+}
+.services-info{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.services-card{
+    flex: 1;
+    padding :40px;
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 2px;
+    border-color: #dbdbdb;
+    text-align: center;
+    transition: 0.3s;
+}
+.services-card:hover{
+    background-color: #F50057;
+    color: white;
+    border-color: #F50057;
+}
+.icon{
+    padding: 30px;
+}
+
+/*    SECTION 7 : Contact*/
+.contact{
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+}
+.contact-container{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.contact-text{
+    flex: 1;
+}
+.contact-form{
+    flex : 1;
+}
+#contact-title{
+    font-size: 60px;
+    padding: 30px 0px;
+}
+#sigiature{
+    font-family: 'Parisienne', cursive;
+    font-weight: bolder;
+    font-size: 50px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
     padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+    font-family: 'Roboto Condensed';
+
+}
+textarea{
+    margin: 20px;
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'Roboto Condensed';
+    resize: none;
+}
+/*FOOTER STYLES*/
+footer{
+    background-color: #262b37;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
 }
