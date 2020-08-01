@@ -1,12 +1,12 @@
 body{
     margin : 0px;
     padding: 0px;
-    font-family: 'Roboto Condensed';
+    font-family: 'Oswald';
 }
 
 /*Poster Styles */
 .poster{
-    background-image:url("../assets/desk.jpg");
+    background-image: url("../assets//desk5.jpg");
     background-position: center;
     background-size: cover;
     height: 90vh;
@@ -17,7 +17,7 @@ body{
     
 }
 .poster-content{
-    background-color: rgba(179,11,71,.2);
+    background-color: rgba(38,43,55,.4);
     height: 100%;
     width: 100%;
     display: flex;
@@ -81,7 +81,7 @@ li:hover{
     height: 90vh;
     display: flex;
     justify-content: center;
-    background-color:#FB256C;
+    background-color:#fff;
 }
 .section-container{
     height: 100%;
@@ -93,13 +93,18 @@ li:hover{
 .apropos-title{
     text-align: center;
     padding: 25px;
-    color: white;
 }
-h2{
-    font-size: 30px;
+.title{
+    font-size: 43px;
+    color:#000;
+    font-weight: 600;
+}
+.sub-title{
+    font-size: 20px;
+    color: #878787;
     font-weight: 400;
-    margin-bottom: 0px;
 }
+
 
 .apropos-content{
     display: flex;
@@ -109,12 +114,12 @@ h2{
     height: 100%;
 }
 .apropos-info{
-    flex: 3;
+    flex: 2;
     padding: 15px;
-    color: white;
+    text-align: justify;
 }
 .apropos-photo{
-    flex:2;
+    flex:3;
     display: flex;
     justify-content: center;
     }
@@ -126,112 +131,29 @@ p{
     font-size: 18px;
 }
 .btn{
-    background-color: #262b37;
+    background-image: linear-gradient(to right, #833ad9 , #536DFE);
     color: white;
-    padding: 15px;
-    font-size: 16px;
+    padding: 10px;
+    font-size: 14px;
     font-weight: 500;
-    font-family: 'Roboto Condensed';
-    border-radius: 4px;
     cursor: pointer;
     transition: 0.4s;
 }
 .photo{
     width: 80%;
-    background-image: url("../assets/profile.jpg");
+    background-image: url("../assets/undraw_site_content_ihgn.png");
     background-position: center;
     background-size: cover;
-    border-radius: 50%;
-}
-/*SECTION 4 : Competence*/
-.competence{
-    height: fit-content;
-    min-height: 90vh;
-    display: flex;
-    justify-content: center;
-    background-color: #f0f3f7;
-}
-.competence-title{
-    text-align: center;
-    color: #FB256C;
-    padding: 25px;
-}
-.competence-info{
-    padding: 25px;
-    width: 100%;
-}
-.row{
-    display: flex;
-    padding: 30px 10px;
-}
-.col{
-    flex:1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.stats{
-    color:#FB256C;
-    font-weight: 500;
-}
-/*SECTION 5 experience*/
-.experience{
-    height: fit-content;
-    display: flex;
-    justify-content: center;
-    background-color: #fff;
-}
-.experience-title{
-    text-align: center;
-    color: #FB256C;
-    padding: 25px;
-}
-.experience-info{
-    display: flex;
-    flex-direction: column;
-    justify-content: column;
-    width: 100%;
-}
-.row-experience{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.col-date{
-    display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
-    padding: 45px;
-    color: white;
-    border-right-style: solid;
-    border-right-color: #f0f3f7;
-    border-right-width: 1.5px;
-    font-weight: 600;
-}
-.col-exp-container{
-    flex:4;
-    background-color: #f0f3f7;
-    margin: 0px 20px;
-    padding: 15px;
     border-radius: 4px;
 }
-.boule{
-    text-align: center;
-    background-color: #FB256C;
-    border-radius: 50%;
-    width: 50%;
-    padding: 25px;
-}
 
-/*SECTION 6 SERVICES*/
+/*SECTION 4 SERVICES*/
 .services{
     height: fit-content;
     min-height: 90vh;
     display: flex;
     justify-content: center;
-    background-color: #f0f3f7;
+    background-color: #fafafa;
 }
 .services-title{
     text-align: center;
@@ -246,27 +168,155 @@ p{
 .services-card{
     flex: 1;
     padding :40px;
-    margin: 0px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-style: solid;
     border-radius: 6px;
-    border-width: 2px;
-    border-color: #dbdbdb;
     text-align: center;
-    transition: 0.3s;
 }
-.services-card:hover{
-    background-color: #FB256C;
-    color: white;
-    border-color: #FB256C;
+.s-item-title{
+    font-size: 22px;
+    color: #303132;
+    font-weight: 600;
 }
-.icon{
-    padding: 30px;
+.s-item-desc{
+    font-size: 19px;
+    color: #878787;
 }
 
+.icon{
+    margin:25px;
+    padding: 30px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px 2px rgba(230,230,230,1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* SECTION 05*/
+.works{
+    display: flex;
+    min-height: 120vh;
+    height: fit-content;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.works-container{
+    display: flex;
+    flex: 1;
+    width: 98%;
+    flex-direction: column;
+}
+.works-title{
+    text-align: center;
+    padding: 25px;
+}
+.works-info{
+    flex :1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.works-row{
+    flex : 1;
+    display: flex;
+    width: 100%;
+    margin: 30px;
+}
+.work-item{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 30px;
+}
+.img1{
+    background-image:url("../assets/img1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.img2{
+    background-image:url("../assets/img2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.img3{
+    background-image:url("../assets/img3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.row-btn{
+    background-image: linear-gradient(to right, #833ad9 , #536DFE);
+    padding: 10px;
+    color:white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+/*Section 06 Skills*/
+.skills{
+    background-color: #fafafa;
+    display: flex;
+    min-height: 90vh;
+    height: fit-content;
+    justify-content: center; 
+}
+.skills-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.skills-title{
+    text-align: center;
+    padding: 25px;
+}
+.skills-info{
+    flex : 1;
+    display: flex;
+}
+.skills-intro{
+    flex : 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+    line-height: 65px;
+}
+hr{
+    border-width: 0px;
+    width: 100px;
+    height: 6px;
+    background-color: #536DFE;
+}
+.skills-items{
+    flex : 4;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.skills-row{
+    flex: 1;
+    display: flex;
+}
+.skill-item{
+    flex: 1;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.skill-item-title{
+    padding-top: 10px;
+    font-size: 18px;
+    color: #878787;
+}
 /*    SECTION 7 : Contact*/
 .contact{
     display: flex;
@@ -302,18 +352,19 @@ form{
     flex-direction: column;
 }
 input{
-    padding: 20px;
     margin: 20px;
+    padding: 20px;
     font-size: 20px;
-    font-family: 'Roboto Condensed';
+    font-family: 'Oswald';
 
 }
 textarea{
     margin: 20px;
     font-size: 20px;
     padding: 20px;
-    font-family: 'Roboto Condensed';
+    font-family: 'Oswald';
     resize: none;
+     height: 150px;
 }
 /*FOOTER STYLES*/
 footer{
@@ -329,18 +380,21 @@ footer{
     .apropos-content{
         flex-direction: column;
     }
-    .row{
-        flex-direction: column;
-        padding: 0px;
-    }
-    .col{
-        padding: 30px;
+    .apropos-info{
+        text-align: center;
     }
     .services-info{
         flex-direction: column;
     }
-    .services-card{
+    .works-row{
+        flex-direction: column;
+    }
+    .work-item{
+        min-height: 400px;
         margin: 20px;
+    }
+    .skills-info{
+        flex-direction: column;
     }
     .contact-container{
         flex-direction: column;
