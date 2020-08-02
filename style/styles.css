@@ -377,6 +377,15 @@ footer{
 
 
 @media only screen and (max-width: 1000px) {
+    .nav-header-container{
+        position: static;
+    }
+    h1{
+        font-size: 50px;
+    }
+    h5{
+        font-size: 20px;
+    }
     .apropos-content{
         flex-direction: column;
     }
